@@ -8,4 +8,6 @@ export const connectDB = () =>
     .then((c) => console.log(`Database Connected with ${c.connection.host}`))
     .catch((err) => {
       console.log(err);
-    }); 
+    });
+ 
+    // problem tha ki woh link ache seh nehi likha tha maine
