@@ -48,7 +48,7 @@ export const getMyProfile = (req, res) => {
 };
 
 export const logout = (req, res) => {
-  console.log(process.env.NODE_ENV === "Development");
+ 
   res
     .status(200)
     .cookie("token", "", {
